@@ -1,20 +1,122 @@
-<<<<<<< HEAD
-# React + Vite
+# 🏍️ BIKEWORLD
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive **Bike Collection Website** built using **React JS**.
+This project displays different bikes with their price, mileage, weight, and images in a clean card-based layout.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**BIKEWORLD** is a React JS project that provides information about different bikes from brands like:
 
-## React Compiler
+* Royal Enfield
+* Jawa
+* Honda
+* Yamaha
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each bike is displayed with its:
 
-## Expanding the Oxlint configuration
+* Bike Name
+* Price
+* Mileage
+* Weight
+* Bike Image
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-"# bike-project" 
->>>>>>> 5a98dbaa26a60b7702d187de05f114dcd4b846c3
+## ✨ Features
+
+* Responsive Navbar
+* Bike Collection Section
+* Bike Cards
+* Bike Images
+* Price Information
+* Mileage Information
+* Weight Information
+* Responsive Design
+* Mobile Friendly Layout
+* Sticky Navigation Bar
+* Footer Section
+
+## 🛠️ Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* React JS
+
+## 📂 Project Structure
+
+```text
+bike-project/
+│
+├── public/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pambharshrushti-maker/bike-project.git
+```
+
+### 2. Open Project Folder
+
+```bash
+cd bike-project
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Project
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
+
+## 🏍️ Bike Collection
+
+The project currently includes:
+
+1. Royal Enfield Classic 350
+2. Royal Enfield Hunter 350
+3. Royal Enfield Bullet 350
+4. Royal Enfield Meteor 350
+5. Jawa 42
+6. Jawa Bobber 42
+7. Honda Shine
+8. Honda SP 125
+9. Yamaha MT-15
+
+## 📱 Responsive Design
+
+The website is responsive for:
+
+* 💻 Desktop
+* 📱 Tablet
+* 📱 Mobile
+
+The CSS Grid automatically changes the number of columns according to the screen size.
+
+## 👩‍💻 Author
+
+**Srushti Pambhar**
+
+GitHub: [pambharshrushti-maker](https://github.com/pambharshrushti-maker)
+
+## 📄 License
+
+This project is created for educational and project purposes.
